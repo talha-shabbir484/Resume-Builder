@@ -1,0 +1,65 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #resume {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  #resume p {
+    line-height: 1.5;
+  }
+  
+  #resume ul {
+    list-style-type: none;
+  }
+  
+  #resume ul li::before {
+    content: "• ";
+    color: #000000;
+    font-weight: bold;
+  }
+  
